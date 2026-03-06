@@ -3,4 +3,4 @@ import pandas as pd
 st.title('Machine Learning App')
 
 st.write('Hello world!')
-pd.read_csv
+df = pd.read_csv('penguins_cleaned.csv
