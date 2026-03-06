@@ -2,6 +2,11 @@ import streamlit as st
 import pandas as pd
 st.title('Machine Learning App')
 
-st.write('Hello world!')
 df = pd.read_csv('penguins_cleaned.csv')
-df
+with st.expander('Data'):
+  st.write('**Raw Data**')
+  df
+
+  st.write('**X**)
+  x = df.drop('species', axis=1
+  
